@@ -1,5 +1,5 @@
 # Review Freak
-  A full stack web development project meant to create a platform where users can join and review any geographic location.
+  If it exists, we have reviews for it!
 # Authors 
   Pedram Yazdinia\
   Farzad Vakili
