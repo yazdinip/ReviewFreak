@@ -1,6 +1,4 @@
-# Title
-  Review Freak
-# About 
+# Review Freak
   If it exists, we have reviews for it!!!
 # Authors 
   Pedram Yazdinia\
