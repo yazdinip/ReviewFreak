@@ -1,0 +1,320 @@
+html {
+    line-height: 1.15;
+    height: 100%;
+  
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .reviewsite {
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: italic 1.2em "Fira Sans", serif;;
+    background: url("https://www.freecodecamp.org/news/content/images/size/w2000/2021/06/w-qjCHPZbeXCQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+  }
+  
+  .reviewsite form {
+    width: 100%;
+    max-width: 1290px;
+  }
+  
+  .reviewsite form legend {
+    font-size: 72px;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 50px;
+    padding-top: 60px;
+  }
+
+  .reviewsite form .searchform {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reviewsite form .searchform .dataform {
+    margin-right: 20px;
+    height: 80px;
+  }
+  
+  .reviewsite form .searchform .dataform input {
+    height: 100%;
+    background: #fff;
+    border-radius: 1px;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  
+  .reviewsite form .searchform .dataform.databox {
+    flex-grow: 1;
+  }
+  
+  .reviewsite form .searchform .dataform.ratingbox {
+    min-width: 180px;
+    
+  }
+
+  .reviewsite form .searchform .dataform.searchbtnbox {
+    width: 230px;
+    margin-right: 0;
+  }
+  
+  .reviewsite form .searchform .dataform.searchbtnbox .searchbtn {
+    height: 100%;
+    width: 90%;
+    background: #4272d7;
+    white-space: nowrap;
+    border-radius: .5px;
+    font-size: 20px;
+    color: #fff;
+    transition: all .2s ease-out, color .2s ease-out;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .reviewsite form .searchform .dataform.searchbtnbox .searchbtn:hover {
+    background: #2d62d3;
+  }
+
+  .reviewsite form .submitform {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .reviewsite form .submitform .dataform {
+    margin-right: 20px;
+    height: 80px;
+  }
+  
+  .reviewsite form .submitform .dataform input {
+    height: 60;
+    background: #fff;
+    border-radius: 1px;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  
+  .reviewsite form .submitform .dataform input:invalid {
+    box-shadow: 3px 3px 3px rgb(189, 9, 9);
+  }
+
+  .reviewsite form .submitform .dataform select:invalid {
+    box-shadow: 3px 3px 3px rgb(189, 9, 9);
+  }
+
+  .reviewsite form .submitform .dataform select:valid {
+    box-shadow: 3px 3px 3px rgb(55, 163, 5);
+  }
+
+  .reviewsite form .submitform .dataform input:valid {
+    box-shadow: 3px 3px 3px rgb(55, 163, 5);
+
+  }
+  
+
+  .reviewsite form .submitform .dataform.databox {
+    width: 20%;
+  }
+  
+  .reviewsite form .submitform .dataform.infobox {
+    width: 50%;
+    min-width: 180px;
+  }
+  
+  .reviewsite form .submitform .dataform.searchbtnbox01 {
+    width: 180px;
+    margin-right: 20px;
+    
+  }
+  
+  
+  .reviewsite form .submitform .dataform.searchbtnbox01 .searchbtn01 {
+    height: 100%;
+    width: 100%;
+    background: #4272d7;
+    white-space: nowrap;
+    border-radius: .5px;
+    font-size: 20px;
+    color: #fff;
+    transition: all .2s ease-out, color .2s ease-out;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .reviewsite form .submitform .dataform.searchbtnbox01 .searchbtn01:hover {
+    background: #2d62d3;
+  }
+
+  .reviewsite form .submitform .dataform.searchbtnbox02 {
+    width: 180px;
+    height : 60px;
+    margin-right: 20px;
+    
+  }
+  
+  
+  .reviewsite form .submitform .dataform.searchbtnbox02 .searchbtn02 {
+    height: 50%;
+    width: 100%;
+    background: #4272d7;
+    white-space: nowrap;
+    border-radius: .5px;
+    font-size: 20px;
+    color: #fff;
+    transition: all .2s ease-out, color .2s ease-out;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .reviewsite form .submitform .dataform.searchbtnbox02 .searchbtn02:hover {
+    background: #2d62d3;
+  }
+  .reviewsite form .signupform {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .reviewsite form .signupform .dataform {
+    margin-right: 20px;
+    height: 80px;
+  }
+  
+  .reviewsite form .signupform .dataform input {
+    height: 60;
+    background: #fff;
+    border-radius: 1px;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+  }
+  
+  /*.reviewsite form .signupform .dataform input:valid {
+    box-shadow: 3px 3px 3px rgb(55, 163, 5);
+  }
+
+  .reviewsite form .signupform .dataform input:invalid {
+    box-shadow: 3px 3px 3px rgb(189, 9, 9);
+  }
+  */
+
+  .reviewsite form .signupform .dataform.databox {
+    width: 30%;
+  }
+  
+  .reviewsite form .signupform .dataform.infobox {
+    width: 30%;
+    min-width: 180px;
+  }
+  
+  .reviewsite form .signupform .dataform.searchbtnbox {
+    width: 10%;
+    margin-right: 0;
+  }
+  
+  .reviewsite form .signupform .dataform.searchbtnbox {
+    width: 10%;
+    min-width:280px;
+  }
+  
+  .reviewsite form .signupform .dataform.searchbtnbox .searchbtn {
+    height: 100%;
+    width: 100%;
+    background: #4272d7;
+    white-space: nowrap;
+    border-radius: .5px;
+    font-size: 20px;
+    color: #fff;
+    transition: all .2s ease-out, color .2s ease-out;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  .reviewsite form .signupform .dataform.searchbtnbox .searchbtn:hover {
+    background: #2d62d3;
+  }
+  
+@media screen and (max-width: 992px) {
+  .reviewsite form legend {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .reviewsite form .searchform {
+    padding: 30px 35px;
+  }
+  .reviewsite form .searchform .dataform {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reviewsite form legend {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .reviewsite form .searchform {
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .reviewsite form .searchform .dataform {
+    margin-right: 0;
+  }
+  .reviewsite form .searchform .dataform input {
+    padding: 5px 15px;
+    font-size: 16px;
+  }
+  .reviewsite form .searchform .dataform.databox {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .reviewsite form .searchform .dataform.ratingbox {
+    width: calc(50% - 10px);
+    min-width: auto;
+  }
+  .reviewsite form .searchform .dataform.searchbtnbox {
+    width: calc(50% - 10px);
+  }
+  .reviewsite form .searchform .dataform.searchbtnbox .searchbtn {
+    font-size: 16px;
+  }
+}
+

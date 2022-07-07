@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;  /*includes the padding and border in an element's total width and height*/
+}
+html {
+  line-height: 1.15;
+  height: 100%;
+}
+body{
+  font-family: montserrat;
+}
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+.min-height {
+    min-height: 100vh;
+  }
+.bckground-cover {
+    background-size: cover !important;
+  }
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+} 
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+} 
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+} 
+.barsbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#bars{
+  display: none;  /* The element will be hidden, and the page will be displayed as if the element is not there */
+} 
+@media (max-width: 950px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media (max-width: 900px){
+  .barsbtn{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  nav a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #bars:checked ~ ul{
+    left: 0;
+  }
+}
+  .Individual {
+    margin: auto;
+    width: 60%;
+    margin-top: 50px;
+  }
+  .Individual img{
+    max-width: 100%;
+  }
+  .Reviews{
+    margin: auto;
+    width: 60%;
+    margin-top: 30px;
+  }
+  .Reviews p{
+    border-style: hidden hidden solid;
+  }
+  .Results table, th, td {
+    border:1px solid rgb(95, 65, 243);
+  }
+  .Results img{
+    max-width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .footer-custom {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  .footer-custom ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  .footer-custom li {
+    padding:0 10px;
+  }
+  
+  .footer-custom ul a {     /* Specefication */
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-custom ul a:hover {
+    opacity:1;
+  }
+
+  .footer-custom .SocialMedia {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  .footer-custom .SocialMedia > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-custom .SocialMedia > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-custom .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  #map {
+    /* The height is 400 pixels */
+    height: 400px;
+    /* The width is the width of the web page */
+    width: 100%;
+  }
+/*section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
